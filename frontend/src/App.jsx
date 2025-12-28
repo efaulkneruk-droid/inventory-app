@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import axios from 'axios'
 
 const API = import.meta.env.VITE_API_BASE || 'http://localhost:4000'
