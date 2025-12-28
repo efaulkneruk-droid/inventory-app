@@ -1,3 +1,16 @@
 node_modules
 dist
 /.env
+
+# runtime artifacts
+backend/*.log
+backend/*.pid
+backend/data/*.db
+frontend/*.log
+
+# macOS and editor
+.DS_Store
+.vscode/
+# temporary files
+*.tmp
+*.bak
